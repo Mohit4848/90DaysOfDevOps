@@ -1,0 +1,125 @@
+Task 3 :-
+
+Feature	                        git reset	             git revert
+What it does	                Moves branch pointer	Creates undo commit
+Removes commit from history?	Yes	                      No
+Safe for shared branches?	        No	                  Yes
+When to use	Local cleanup	    Public/shared                undo
+
+Task 4 :-
+Gitflow:- 
+How it works
+
+develop = integration branch
+
+feature branches merge into develop
+
+release branch created before production
+
+hotfix from main
+
+Used for
+
+Large teams
+
+Scheduled releases
+
+Pros
+
+Organized
+
+Clear release management
+
+Cons
+
+Complex
+
+Too heavy for startups
+
+github flow :- 
+Workflow:
+
+Create feature branch
+
+Open PR
+
+Merge into main
+
+Deploy
+
+Used for
+
+SaaS
+
+Continuous deployment
+
+Pros
+
+Simple
+
+Fast
+
+Cons
+
+Requires strong CI/CD
+
+Trunk-Based Development
+
+main
+short-lived branches (optional)
+Everyone commits to main
+
+Small frequent commits
+
+Feature flags used
+
+Used for
+High-performing teams
+
+Big tech companies
+
+Pros
+Simple
+
+Fast integration
+
+Fewer merge conflicts
+
+Cons
+Requires strong testing
+
+Strategy Questions
+Startup shipping fast?
+
+GitHub Flow
+
+Large team with scheduled releases?
+
+GitFlow
+
+
+sonarqube helm charts repository
+Mostly use trunk-based or GitHub Flow style with protected main.
+
+
+
+Most Important Safety Command
+
+If you ever make a mistake:
+
+git reflog
+
+
+It shows EVERYTHING — even after hard reset.
+
+You can recover lost commits using:
+
+git checkout <old-commit>
+
+
+or
+
+git reset --hard <hash>
+
+
+Reflog is your parachute.

@@ -23,7 +23,6 @@ Answer from memory, then verify:
 1️) Difference between an image and a container?
 Image = Read-only blueprint (template).
 Container = Running instance of an image.
-
 Think:
 Image = class
 Container = object

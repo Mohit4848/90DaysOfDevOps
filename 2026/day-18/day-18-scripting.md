@@ -30,4 +30,4 @@ The answers of the questions asked in these tasks are -
 **Document:** What does each flag do?
 - `set -e` → It exits immediately if any command fails.
 - `set -u` → It treats undefined variables as errors.
-- `set -o pipefail` → If any command inside the pipeline fails then the entire pipeline fails.
+- `set -o pipefail` → If any command inside the pipeline fails then the entire pipeline gets stopped.

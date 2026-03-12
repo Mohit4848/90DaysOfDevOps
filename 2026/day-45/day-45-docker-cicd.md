@@ -20,3 +20,14 @@ Task 3:-
 
 Task 4:-
 
+Already did that.
+
+Task 5:-
+
+[![Docker Build and Publish](https://github.com/Mohit4848/github-workflows/actions/workflows/docker-publish.yaml/badge.svg)](https://github.com/Mohit4848/github-workflows/actions/workflows/docker-publish.yaml) 
+
+Task 6:-
+
+![alt text](image-8.png)
+
+![alt text](image-7.png)

@@ -31,3 +31,7 @@ Task 7:-
 ![alt text](image-8.png)
 
 ![alt text](image-9.png)
+
+env vars doesn't update automatically but volume mounts does.
+
+ConfigMaps & Secrets let you separate configuration from application code, making apps flexible, secure, and production-ready.

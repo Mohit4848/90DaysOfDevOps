@@ -20,3 +20,8 @@ Task 4:-
 
 Task 5:-
 
+![alt text](image-6.png)
+
+Task 6:-
+
+![alt text](image-7.png)
